@@ -1,0 +1,1 @@
+clang -g hsa_supported.c -I/home/dezhliao/develop/ROCR-Install/include -L/home/dezhliao/develop/ROCR-Install/lib/ -lhsa-runtime64 -lhsakmt -lnuma -lstdc++ -lm -lelf -ldrm -ldrm_amdgpu -o hsa_supported

@@ -364,7 +364,7 @@ struct allocation_info_t {
   hsa_amd_vmem_alloc_handle_t memory_handle = {};
 };
 
-int main(int argc, const char* argv[]) {
+int main() {
   HSA_CHECK(hsa_init());
 
   auto const test_mode = test_mode_t::AllowAccess;
